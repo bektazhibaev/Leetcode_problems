@@ -1,8 +1,10 @@
 package problemSolving;
 
+import main.theMain;
+
 import java.util.Scanner;
 
-public class reverseSentenceStr extends theMain {
+public class ReverseSentenceStr extends theMain {
 
     /**
      * The purpose of this class is to take a space separated sentence string from the user
@@ -17,7 +19,7 @@ public class reverseSentenceStr extends theMain {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter space separated sentence: ");
         String userStr = scanner.nextLine();
-        reverseSentenceStr reverseSentenceStr = new reverseSentenceStr();
+        ReverseSentenceStr reverseSentenceStr = new ReverseSentenceStr();
         String resStr = reverseSentenceStr.reverseSentence(userStr);
         System.out.println(resStr);
 
