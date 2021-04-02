@@ -1,8 +1,11 @@
 package main;
 
+import problemSolving.LeetcodeSqrtProblem;
 import problemSolving.LettersAndDigits;
 import problemSolving.ReverseSentenceStr;
 import problemSolving.ReverseString;
+
+import java.util.Arrays;
 
 public class theMain {
 
@@ -20,5 +23,7 @@ public class theMain {
         LettersAndDigits lettersAndDigits = new LettersAndDigits();
         lettersAndDigits.digitsList();
 
+        LeetcodeSqrtProblem leetcodeSqrtProblem = new LeetcodeSqrtProblem();
+        System.out.println("Square root is: "+leetcodeSqrtProblem.returnSqrt(10000));
     }
 }
