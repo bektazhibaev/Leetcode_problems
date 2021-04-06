@@ -26,7 +26,10 @@ public class theMain {
 //        MaxConsecutiveOnes mco = new MaxConsecutiveOnes();
 //        mco.getInput();
 
-        FindEvenLengthNumbers feln = new FindEvenLengthNumbers();
-        feln.findEvenLengthDigitNumbers();
+//        FindEvenLengthNumbers feln = new FindEvenLengthNumbers();
+//        feln.findEvenLengthDigitNumbers();
+
+        RemoveElement_LC removeElement_lc = new RemoveElement_LC();
+        removeElement_lc.getArrayAndValue();
     }
 }
