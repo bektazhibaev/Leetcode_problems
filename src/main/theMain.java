@@ -29,7 +29,12 @@ public class theMain {
 //        FindEvenLengthNumbers feln = new FindEvenLengthNumbers();
 //        feln.findEvenLengthDigitNumbers();
 
-        RemoveElement_LC removeElement_lc = new RemoveElement_LC();
-        removeElement_lc.getArrayAndValue();
+//        RemoveElement_LC removeElement_lc = new RemoveElement_LC();
+//        removeElement_lc.getArrayAndValue();
+
+        SearchInsert_LC searchInsert_lc = new SearchInsert_LC();
+        int[] arr = new int[]{1,2,3,5,6};
+
+        System.out.println(searchInsert_lc.searchInsert(arr, 4));
     }
 }
