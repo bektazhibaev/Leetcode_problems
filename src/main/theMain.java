@@ -32,9 +32,13 @@ public class theMain {
 //        RemoveElement_LC removeElement_lc = new RemoveElement_LC();
 //        removeElement_lc.getArrayAndValue();
 
-        SearchInsert_LC searchInsert_lc = new SearchInsert_LC();
-        int[] arr = new int[]{1,2,3,5,6};
+//        SearchInsert_LC searchInsert_lc = new SearchInsert_LC();
+//        int[] arr = new int[]{1,2,3,5,6};
+//
+//        System.out.println(searchInsert_lc.searchInsert(arr, 4));
 
-        System.out.println(searchInsert_lc.searchInsert(arr, 4));
+        RemoveDuplicatesFromSortedArray_LC_26 removeDuplicatesFromSortedArray_lc_26 = new RemoveDuplicatesFromSortedArray_LC_26();
+        int[] arr= new int[]{1,1,3,1,4};
+        removeDuplicatesFromSortedArray_lc_26.removeDuplicates(arr);
     }
 }
