@@ -37,8 +37,12 @@ public class theMain {
 //
 //        System.out.println(searchInsert_lc.searchInsert(arr, 4));
 
-        RemoveDuplicatesFromSortedArray_LC_26 removeDuplicatesFromSortedArray_lc_26 = new RemoveDuplicatesFromSortedArray_LC_26();
-        int[] arr= new int[]{1,1,3,1,4};
-        removeDuplicatesFromSortedArray_lc_26.removeDuplicates(arr);
+//        RemoveDuplicatesFromSortedArray_LC_26 removeDuplicatesFromSortedArray_lc_26 = new RemoveDuplicatesFromSortedArray_LC_26();
+//        int[] arr= new int[]{1,1,3,1,4};
+//        removeDuplicatesFromSortedArray_lc_26.removeDuplicates(arr);
+
+        MaximumSubarray_LC_53 maximumSubarray_lc_53 = new MaximumSubarray_LC_53();
+        int[] ar = new int[]{-1, -2, -8, 7, 6};
+        System.out.println(maximumSubarray_lc_53.maxSubArray(ar));
     }
 }
