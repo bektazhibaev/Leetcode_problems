@@ -41,8 +41,12 @@ public class theMain {
 //        int[] arr= new int[]{1,1,3,1,4};
 //        removeDuplicatesFromSortedArray_lc_26.removeDuplicates(arr);
 
-        MaximumSubarray_LC_53 maximumSubarray_lc_53 = new MaximumSubarray_LC_53();
-        int[] ar = new int[]{-1, -2, -8, 7, 6};
-        System.out.println(maximumSubarray_lc_53.maxSubArray(ar));
+//        MaximumSubarray_LC_53 maximumSubarray_lc_53 = new MaximumSubarray_LC_53();
+//        int[] ar = new int[]{-1, -2, -8, 7, 6};
+//        System.out.println(maximumSubarray_lc_53.maxSubArray(ar));
+
+        ClimbingStairs_LC_70 climbingStairs_lc_70 = new ClimbingStairs_LC_70();
+        System.out.println(climbingStairs_lc_70.climbStairs(3));
+
     }
 }
