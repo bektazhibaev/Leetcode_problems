@@ -45,8 +45,12 @@ public class theMain {
 //        int[] ar = new int[]{-1, -2, -8, 7, 6};
 //        System.out.println(maximumSubarray_lc_53.maxSubArray(ar));
 
-        ClimbingStairs_LC_70 climbingStairs_lc_70 = new ClimbingStairs_LC_70();
-        System.out.println(climbingStairs_lc_70.climbStairs(3));
+//        ClimbingStairs_LC_70 climbingStairs_lc_70 = new ClimbingStairs_LC_70();
+//        System.out.println(climbingStairs_lc_70.climbStairs(3));
+
+        MajorityElement_LC_169 majorityElement_lc_169 = new MajorityElement_LC_169();
+        int[] nums = new int[]{3,2,3};
+        System.out.println(majorityElement_lc_169.majorityElement(nums));
 
     }
 }
