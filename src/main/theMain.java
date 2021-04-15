@@ -48,9 +48,12 @@ public class theMain {
 //        ClimbingStairs_LC_70 climbingStairs_lc_70 = new ClimbingStairs_LC_70();
 //        System.out.println(climbingStairs_lc_70.climbStairs(3));
 
-        MajorityElement_LC_169 majorityElement_lc_169 = new MajorityElement_LC_169();
-        int[] nums = new int[]{3,2,3};
-        System.out.println(majorityElement_lc_169.majorityElement(nums));
+//        MajorityElement_LC_169 majorityElement_lc_169 = new MajorityElement_LC_169();
+//        int[] nums = new int[]{3,2,3};
+//        System.out.println(majorityElement_lc_169.majorityElement(nums));
+
+        CountPrimes_LC_204 countPrimes_lc_204 = new CountPrimes_LC_204();
+        System.out.println(countPrimes_lc_204.countPrimes(499979));
 
     }
 }
