@@ -1,5 +1,6 @@
 package main;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class reverseStringWithoutTempVar {
@@ -13,7 +14,7 @@ public class reverseStringWithoutTempVar {
         int start = 0;
         int end = str.length()-1;
 
-        char arr[] = new char[];
+        char arr[] = new char[str.length()];
 //        str.toCharArray();
         for (int i = 0; i < str.length(); i++) {
             arr[i] = str.charAt(i);
@@ -29,5 +30,6 @@ public class reverseStringWithoutTempVar {
             ++start;
             --end;
         }
+        System.out.println(Arrays.toString(arr));
     }
 }
