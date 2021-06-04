@@ -51,9 +51,13 @@ public class theMain {
 //        MajorityElement_LC_169 majorityElement_lc_169 = new MajorityElement_LC_169();
 //        int[] nums = new int[]{3,2,3};
 //        System.out.println(majorityElement_lc_169.majorityElement(nums));
+//
+//        CountPrimes_LC_204 countPrimes_lc_204 = new CountPrimes_LC_204();
+//        System.out.println(countPrimes_lc_204.countPrimes(499979));
 
-        CountPrimes_LC_204 countPrimes_lc_204 = new CountPrimes_LC_204();
-        System.out.println(countPrimes_lc_204.countPrimes(499979));
+        CanPlaceFlowers_LC_605 canPlaceFlowers_lc_605 = new CanPlaceFlowers_LC_605();
+        int[] arr = new int[]{0};
+        System.out.println(canPlaceFlowers_lc_605.canPlaceFlowers(arr, 2));
 
     }
 }
