@@ -55,9 +55,15 @@ public class theMain {
 //        CountPrimes_LC_204 countPrimes_lc_204 = new CountPrimes_LC_204();
 //        System.out.println(countPrimes_lc_204.countPrimes(499979));
 
-        CanPlaceFlowers_LC_605 canPlaceFlowers_lc_605 = new CanPlaceFlowers_LC_605();
-        int[] arr = new int[]{0};
-        System.out.println(canPlaceFlowers_lc_605.canPlaceFlowers(arr, 2));
+//        CanPlaceFlowers_LC_605 canPlaceFlowers_lc_605 = new CanPlaceFlowers_LC_605();
+//        int[] arr = new int[]{0};
+//        System.out.println(canPlaceFlowers_lc_605.canPlaceFlowers(arr, 2));
+
+        TwoStringArrays_LC_1662 twoStringArrays_lc_1662 = new TwoStringArrays_LC_1662();
+        String[] a1 = new String[]{"ab","cd","e"};
+        String[] b1 = new String[]{"ab","c","de"};
+        boolean res = twoStringArrays_lc_1662.arrayStringsAreEqual(a1,b1);
+        System.out.println(res);
 
     }
 }
