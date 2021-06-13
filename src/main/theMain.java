@@ -75,10 +75,17 @@ public class theMain {
 //        int[] ar = new int[]{4,2,1,1,2};
 //        System.out.println(greatestNumberOfCandies_lc_1431.kidsWithCandies(ar, 1));
 
-        RichestCustomerWealth_LC_1672 richestCustomerWealth_lc_1672 = new RichestCustomerWealth_LC_1672();
-        int[][] arr = new int[][]{{1,2,3},{3,2,1}};
-        System.out.println(richestCustomerWealth_lc_1672.maximumWealth(arr));
+//        RichestCustomerWealth_LC_1672 richestCustomerWealth_lc_1672 = new RichestCustomerWealth_LC_1672();
+//        int[][] arr = new int[][]{{1,2,3},{3,2,1}};
+//        System.out.println(richestCustomerWealth_lc_1672.maximumWealth(arr));
+//
+//        NumberOfGoodPairs numberOfGoodPairs = new NumberOfGoodPairs();
+//        int a[] = new int[]{1,2,3,1,1,3};
+//        System.out.println(numberOfGoodPairs.numIdenticalPairs(a));
 
+//        SmallerThanCurrentNumber_LC_1365 smallerThanCurrentNumber_lc_1365 = new SmallerThanCurrentNumber_LC_1365();
+//        int a[] = new int[]{8,1,2,2,3};
+//        System.out.println(Arrays.toString(smallerThanCurrentNumber_lc_1365.smallerNumbersThanCurrent(a)));
 
     }
 }
