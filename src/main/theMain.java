@@ -65,15 +65,19 @@ public class theMain {
 //        boolean res = twoStringArrays_lc_1662.arrayStringsAreEqual(a1,b1);
 //        System.out.println(res);
 
-        ShuffleTheArray shuffleTheArray = new ShuffleTheArray();
-        int[] a = {1,2,3,4,5,6};
-        int b = 3;
-        int[] res = shuffleTheArray.shuffle(a,b);
-        System.out.println(Arrays.toString(res));
+//        ShuffleTheArray shuffleTheArray = new ShuffleTheArray();
+//        int[] a = {1,2,3,4,5,6};
+//        int b = 3;
+//        int[] res = shuffleTheArray.shuffle(a,b);
+//        System.out.println(Arrays.toString(res));
 
 //        GreatestNumberOfCandies_LC_1431 greatestNumberOfCandies_lc_1431 = new GreatestNumberOfCandies_LC_1431();
 //        int[] ar = new int[]{4,2,1,1,2};
 //        System.out.println(greatestNumberOfCandies_lc_1431.kidsWithCandies(ar, 1));
+
+        RichestCustomerWealth_LC_1672 richestCustomerWealth_lc_1672 = new RichestCustomerWealth_LC_1672();
+        int[][] arr = new int[][]{{1,2,3},{3,2,1}};
+        System.out.println(richestCustomerWealth_lc_1672.maximumWealth(arr));
 
 
     }
