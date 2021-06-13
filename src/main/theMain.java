@@ -59,11 +59,21 @@ public class theMain {
 //        int[] arr = new int[]{0};
 //        System.out.println(canPlaceFlowers_lc_605.canPlaceFlowers(arr, 2));
 
-        TwoStringArrays_LC_1662 twoStringArrays_lc_1662 = new TwoStringArrays_LC_1662();
-        String[] a1 = new String[]{"ab","cd","e"};
-        String[] b1 = new String[]{"ab","c","de"};
-        boolean res = twoStringArrays_lc_1662.arrayStringsAreEqual(a1,b1);
-        System.out.println(res);
+//        TwoStringArrays_LC_1662 twoStringArrays_lc_1662 = new TwoStringArrays_LC_1662();
+//        String[] a1 = new String[]{"ab","cd","e"};
+//        String[] b1 = new String[]{"ab","c","de"};
+//        boolean res = twoStringArrays_lc_1662.arrayStringsAreEqual(a1,b1);
+//        System.out.println(res);
+
+//        ShuffleTheArray shuffleTheArray = new ShuffleTheArray();
+//        int[] a = {1,2,3,4,5,6,7};
+//        int b = 3;
+//        int[] res = shuffleTheArray.shuffle(a,b);
+
+        GreatestNumberOfCandies_LC_1431 greatestNumberOfCandies_lc_1431 = new GreatestNumberOfCandies_LC_1431();
+        int[] ar = new int[]{4,2,1,1,2};
+        System.out.println(greatestNumberOfCandies_lc_1431.kidsWithCandies(ar, 1));
+
 
     }
 }
