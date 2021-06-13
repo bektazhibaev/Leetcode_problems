@@ -65,14 +65,15 @@ public class theMain {
 //        boolean res = twoStringArrays_lc_1662.arrayStringsAreEqual(a1,b1);
 //        System.out.println(res);
 
-//        ShuffleTheArray shuffleTheArray = new ShuffleTheArray();
-//        int[] a = {1,2,3,4,5,6,7};
-//        int b = 3;
-//        int[] res = shuffleTheArray.shuffle(a,b);
+        ShuffleTheArray shuffleTheArray = new ShuffleTheArray();
+        int[] a = {1,2,3,4,5,6};
+        int b = 3;
+        int[] res = shuffleTheArray.shuffle(a,b);
+        System.out.println(Arrays.toString(res));
 
-        GreatestNumberOfCandies_LC_1431 greatestNumberOfCandies_lc_1431 = new GreatestNumberOfCandies_LC_1431();
-        int[] ar = new int[]{4,2,1,1,2};
-        System.out.println(greatestNumberOfCandies_lc_1431.kidsWithCandies(ar, 1));
+//        GreatestNumberOfCandies_LC_1431 greatestNumberOfCandies_lc_1431 = new GreatestNumberOfCandies_LC_1431();
+//        int[] ar = new int[]{4,2,1,1,2};
+//        System.out.println(greatestNumberOfCandies_lc_1431.kidsWithCandies(ar, 1));
 
 
     }
