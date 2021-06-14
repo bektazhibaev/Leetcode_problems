@@ -87,5 +87,10 @@ public class theMain {
 //        int a[] = new int[]{8,1,2,2,3};
 //        System.out.println(Arrays.toString(smallerThanCurrentNumber_lc_1365.smallerNumbersThanCurrent(a)));
 
+        DecompressRunLengthEncodedList decompressRunLengthEncodedList = new DecompressRunLengthEncodedList();
+
+        int a[] = new int[]{1,2,3,4};
+        System.out.println(Arrays.toString(decompressRunLengthEncodedList.decompressRLElist(a)));
+
     }
 }
