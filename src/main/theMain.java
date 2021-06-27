@@ -87,10 +87,20 @@ public class theMain {
 //        int a[] = new int[]{8,1,2,2,3};
 //        System.out.println(Arrays.toString(smallerThanCurrentNumber_lc_1365.smallerNumbersThanCurrent(a)));
 
-        DecompressRunLengthEncodedList decompressRunLengthEncodedList = new DecompressRunLengthEncodedList();
+//        DecompressRunLengthEncodedList decompressRunLengthEncodedList = new DecompressRunLengthEncodedList();
+//
+//        int a[] = new int[]{1,2,3,4};
+//        System.out.println(Arrays.toString(decompressRunLengthEncodedList.decompressRLElist(a)));
 
-        int a[] = new int[]{1,2,3,4};
-        System.out.println(Arrays.toString(decompressRunLengthEncodedList.decompressRLElist(a)));
+//        DefaningIPAddress defaningIPAddress = new DefaningIPAddress();
+//        System.out.println(defaningIPAddress.defangIPaddr("1.2.3.4.5"));
+
+//        LargestNumber_LC_179 largestNumber_lc_179 = new LargestNumber_LC_179();
+//        int[] ar = {3,30,34,5,9};
+//        System.out.println(largestNumber_lc_179.largestNumber(ar));
+
+        ShuffleString_LC_1528 shuffleString_lc_1528 = new ShuffleString_LC_1528();
+        System.out.println(shuffleString_lc_1528.restoreString("aiohn", new int[]{3,1,4,2,0}));
 
     }
 }
