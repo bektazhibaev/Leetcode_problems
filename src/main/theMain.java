@@ -99,8 +99,10 @@ public class theMain {
 //        int[] ar = {3,30,34,5,9};
 //        System.out.println(largestNumber_lc_179.largestNumber(ar));
 
-        ShuffleString_LC_1528 shuffleString_lc_1528 = new ShuffleString_LC_1528();
-        System.out.println(shuffleString_lc_1528.restoreString("aiohn", new int[]{3,1,4,2,0}));
+//        ShuffleString_LC_1528 shuffleString_lc_1528 = new ShuffleString_LC_1528();
+//        System.out.println(shuffleString_lc_1528.restoreString("aiohn", new int[]{3,1,4,2,0}));
 
+        GoalParserInterpret_LC_1678 goalParserInterpret_lc_1678 = new GoalParserInterpret_LC_1678();
+        System.out.println(goalParserInterpret_lc_1678.interpret("G()()()()(al)"));
     }
 }
