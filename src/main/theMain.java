@@ -107,12 +107,15 @@ public class theMain {
 //        GoalParserInterpret_LC_1678 goalParserInterpret_lc_1678 = new GoalParserInterpret_LC_1678();
 //        System.out.println(goalParserInterpret_lc_1678.interpret("G()()()()(al)"));
 
-        CountItemsMatchingRule_LC_1773 countItemsMatchingRule_1773 = new CountItemsMatchingRule_LC_1773();
-        String[][] arr = {{"phone","blue","pixel"},{"computer","silver","lenovo"},{"phone","gold","iphone"}};
-        List<List<String>> list = new ArrayList<>();
-        for (String[] s : arr) {
-            list.add(Arrays.asList(s));
-        }
-        System.out.println(countItemsMatchingRule_1773.countMatches(list, "type", "phone"));
+//        CountItemsMatchingRule_LC_1773 countItemsMatchingRule_1773 = new CountItemsMatchingRule_LC_1773();
+//        String[][] arr = {{"phone","blue","pixel"},{"computer","silver","lenovo"},{"phone","gold","iphone"}};
+//        List<List<String>> list = new ArrayList<>();
+//        for (String[] s : arr) {
+//            list.add(Arrays.asList(s));
+//        }
+//        System.out.println(countItemsMatchingRule_1773.countMatches(list, "type", "phone"));
+
+        RotateString_LC_796 rotateString_lc_796 = new RotateString_LC_796();
+        System.out.println(rotateString_lc_796.rotateString("abcde", "cdeab"));
     }
 }
