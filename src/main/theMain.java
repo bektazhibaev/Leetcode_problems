@@ -2,7 +2,9 @@ package main;
 
 import problemSolving.*;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class theMain {
 
@@ -102,7 +104,15 @@ public class theMain {
 //        ShuffleString_LC_1528 shuffleString_lc_1528 = new ShuffleString_LC_1528();
 //        System.out.println(shuffleString_lc_1528.restoreString("aiohn", new int[]{3,1,4,2,0}));
 
-        GoalParserInterpret_LC_1678 goalParserInterpret_lc_1678 = new GoalParserInterpret_LC_1678();
-        System.out.println(goalParserInterpret_lc_1678.interpret("G()()()()(al)"));
+//        GoalParserInterpret_LC_1678 goalParserInterpret_lc_1678 = new GoalParserInterpret_LC_1678();
+//        System.out.println(goalParserInterpret_lc_1678.interpret("G()()()()(al)"));
+
+        CountItemsMatchingRule_LC_1773 countItemsMatchingRule_1773 = new CountItemsMatchingRule_LC_1773();
+        String[][] arr = {{"phone","blue","pixel"},{"computer","silver","lenovo"},{"phone","gold","iphone"}};
+        List<List<String>> list = new ArrayList<>();
+        for (String[] s : arr) {
+            list.add(Arrays.asList(s));
+        }
+        System.out.println(countItemsMatchingRule_1773.countMatches(list, "type", "phone"));
     }
 }
