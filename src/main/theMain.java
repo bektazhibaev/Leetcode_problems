@@ -5,6 +5,7 @@ import problemSolving.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class theMain {
 
@@ -115,7 +116,15 @@ public class theMain {
 //        }
 //        System.out.println(countItemsMatchingRule_1773.countMatches(list, "type", "phone"));
 
-        RotateString_LC_796 rotateString_lc_796 = new RotateString_LC_796();
-        System.out.println(rotateString_lc_796.rotateString("abcde", "cdeab"));
+//        RotateString_LC_796 rotateString_lc_796 = new RotateString_LC_796();
+//        System.out.println(rotateString_lc_796.rotateString("abcde", "cdeab"));
+
+//        Scanner scanner = new Scanner(System.in);
+//        int N = scanner.nextInt();
+//        int K = scanner.nextInt();
+//
+//        System.out.println((int)Math.ceil(K/N));
+
+        System.out.println(Arrays.toString(MinOperations_LC_1769.minOperations("001011")));
     }
 }
